@@ -1,9 +1,8 @@
 import './App.css'
+import Banner from './components/Banner'
 
 function App() {
-  return (
-    <h1>Oii</h1>
-  )
+  return <Banner src="./public/banner-desktop.png" alt='Banner desktop'/>;
 }
 
 export default App
